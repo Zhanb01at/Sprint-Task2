@@ -1,0 +1,64 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(232,234,237);
+}
+.nav{
+    background-color:rgb(79,118,161);
+    color: white;
+    padding: 5px 10%;
+}
+.nav span{
+    font-weight: bold;
+    font-size: 24px;
+}
+.nav input {
+    border-radius: 10px;
+    margin-left: 11.5%;
+    background-color: rgb(50,71,102);
+    padding: 3px;
+}
+.main{
+    padding:10px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.menu{
+    flex-wrap: wrap;
+    width: 15%;
+    padding-top: 10px;
+}
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li{
+    margin-top: 15px;
+}
+.friendsProfile{
+    background-color: white;
+    width: 50%;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.parameters{
+    width: 25%;
+}
+.parameters ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.parameters ul li{
+    margin-top: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h3 h4{
+    margin: 0px;
+}

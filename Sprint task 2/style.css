@@ -1,0 +1,151 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(232,234,237);
+}
+.nav{
+    background-color:rgb(79,118,161);
+    color: white;
+    padding: 5px 10%;
+}
+.nav span{
+    font-weight: bold;
+    font-size: 24px;
+}
+.nav input {
+    border-radius: 10px;
+    margin-left: 11.5%;
+    background-color: rgb(50,71,102);
+    padding: 3px;
+}
+.main{
+    padding:10px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.menu{
+    flex-wrap: wrap;
+    width: 15%;
+    padding-top: 10px;
+}
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li{
+    margin-top: 15px;
+}
+.profile{
+    width: 20%;
+}
+.avatar{
+    background-color: white;
+    padding: 10px 5%;
+    width: 90%;
+    border-radius: 5px;
+}
+.avatar img{
+    width: 100%;
+    padding-bottom: 10px;
+}
+.avatar button{
+    width: 100%;
+    background-color: rgb(232,234,237);
+    border: 1px solid rgb(232,234,237);
+    border-radius: 3px;
+}
+.friends{
+    padding: 10px 5%;
+    margin-top: 10px;
+    width: 90%;
+    background-color: white;
+    border-radius: 5px;
+}
+.friendnum{
+    margin-bottom: 10px;
+}
+.friendsProfile{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.friendsProfile img{
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    padding: auto;
+}
+.friendsProfile p{
+    margin: 10px;
+}
+.friend1{
+    width: 33%;
+}
+.friend2{
+    width: 33%;
+}
+.friend3{
+    width: 33%;
+}
+.friend4{
+    width: 33%;
+}
+.friend5{
+    width: 33%;
+}
+.friend6{
+    width: 33%;
+}
+.news{
+    width: 55%;
+    margin-left: 10px;
+}
+.name{
+    font-size: 20px;
+}
+.myInfo{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.myPhotos{
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.photos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.photos img{
+    width: 95%;
+}
+.myNews{
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.miniphoto{
+    display: flex;
+    align-items:center;
+    margin-bottom: 10px;
+}
+.miniphoto img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h3 h4{
+    margin: 0px;
+}
